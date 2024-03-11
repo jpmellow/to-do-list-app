@@ -1,4 +1,4 @@
-import { Jumbotron } from "@/components/Jumbotron";
+import { TodoList } from "@/components/TodoList";
 import { Container } from "react-bootstrap";
 import Link from "next/link";
 
@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Container>
-      <Jumbotron />
+      <TodoList />
       <Link href="/about">About</Link>
     </Container>
   );
